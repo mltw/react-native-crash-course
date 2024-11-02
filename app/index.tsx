@@ -11,7 +11,8 @@ const Index = () => {
     >
       <Text className="text-3xl font-pblack">Aora App!</Text>
       <StatusBar style='auto' />
-      <Link href={"/home"} style={{color: "blue"}}>Go to Profile</Link>
+      {/* this /home will return point to the <Tabs.Screen name='home' /> in (tabs)/_layout.tsx */}
+      <Link href={"/home"} style={{color: "blue"}}>Go to Home</Link>
     </View>
   )
 }
